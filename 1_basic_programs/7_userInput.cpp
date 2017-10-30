@@ -16,8 +16,10 @@ int main()
 
     //print a message to the user
     cout<<"What is your name? ";
+    //get the user response and assign it to the variable name
     cin>>name;
     cout<<"Hello "<<name<<" !\n";
+
 
     //print a message to the user
     cout<<"What year is your favorite? ";
@@ -26,6 +28,7 @@ int main()
 
     //output response to user
     cout<<"How interesting, your favorite year is "<<year<<"!\n";
+
 
     //print a message to the user
     cout<<"At what age did you learn to ride a bike? ";
@@ -41,7 +44,7 @@ int main()
 /*
 **
 ** There's a limitation in using std::cin
-** The operator ">> will not retrieve strings that have a space in them.
+** The operator ">>" will not retrieve strings that have a space in them.
 **
 ** In such case std::getline should be used.
 **
