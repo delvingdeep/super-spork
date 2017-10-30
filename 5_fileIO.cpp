@@ -3,7 +3,7 @@
 **Read the contents of file "input.txt" and then write to it.
 **
 **We are using input.txt as our file.
-**Your assignment for this quiz**
+**
 **
 **This program changes the contents of the file called input.txt
 **and also changes the ifstream and ofstream to fstream
