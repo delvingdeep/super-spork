@@ -1,7 +1,8 @@
 /*Goal: practice std::cin for strings
-**Write a program that prompts two users for their
+**This program that prompts two users for their
 **name, address, and phone number.
-**Print the information to the console in the following format:
+**
+**Prints the information to the console in the following format:
 **name
 **\/t\/t address
 **\/t\/tphone number
@@ -27,7 +28,7 @@ int main(){
     getline(cin, address1);
 
     cout<<"Enter first user's phone number: \n";
-    cin>>phone1;
+    getline(cin, phone1);
 
 
   //For Second user
@@ -38,7 +39,7 @@ int main(){
     getline(cin, address2);
 
     cout<<"Enter second user's phone number: \n";
-    cin>>phone2;
+    getline(cin, phone2);
 
   //printing data for both user's to the console
     cout<<name1<<"\n";
