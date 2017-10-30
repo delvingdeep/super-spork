@@ -23,3 +23,15 @@ $ gcc codefile_name.cpp -o output_name
 $ ./output_name
 ```
 Here the `-o` makes the file to be an output file  and `output_name` is the complied file for our C++ program file.
+
+
+#### Contents
+
+This repository contains different folders with specific type of programs in it. List of them can be found here:
+- *basic_programs* = It contains simple and basic programs.
+- *arithmetic_op* =
+- *control_flow* =
+- *pointers* =
+- *arrays* =
+
+###### STATUS: Repo under development

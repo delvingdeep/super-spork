@@ -1,5 +1,5 @@
 /*Goal: practice using header files.
-** 
+**
 **Create a file named "main.hpp" in the same directory
 **Add preprocessor directives there :
 **----
@@ -18,6 +18,6 @@
 
 int main()
 {
-    cout<<"Hello, I use header files!";
+    cout<<"Hello, I am using header files here!";
     return 0;
 }
