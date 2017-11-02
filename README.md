@@ -29,8 +29,8 @@ Here the `-o` makes the file to be an output file  and `output_name` is the comp
 
 This repository contains different folders with specific type of programs in it. List of them can be found here:
 - *basic_programs* = It contains simple and basic programs.
-- *arithmetic_op* =
-- *control_flow* =
+- *arithmetic_op* = It contains basic programs related to arithmetic operations.
+- *control_flow* = It consists of logical and relational operators based programs along with loops.
 - *pointers* =
 - *arrays* =
 
