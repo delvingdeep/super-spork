@@ -49,6 +49,8 @@ int main()
             ans = in1/in2;
             break;
         }
+        default :
+            cout<<"Illegal Operation";
     }
 
     //display final answer
