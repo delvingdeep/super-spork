@@ -9,18 +9,19 @@ using namespace std;
 int main(){
 
     //asking user for five numbers and then displaying it to the console
-
-    int i, input=0, sum=0, avg=0;
+    int i, input=0, sum=0;
+    float avg;
 
     for(i=0;i<5;i++){
-        cout<<"Enter value"<<i<<": ";
+        cout<<"Enter value "<<i+1<<": "<<endl;
         cin>>input;
         sum += input;
-        if(i==4){
-            cout<<"The sum of 5 numbers is "<<sum<<endl;
-            cout<<"The average of 5 numbers is "<<sum/5.0<<endl;
         }
-    }
+
+    avg = sum/5.0;
+
+    cout<<"The sum of entered "<<i<<" numbers is "<<sum<<endl;
+    cout<<"The average of entered "<<i<<" number is "<<avg<<endl;
 
     return 0;
 }
