@@ -18,7 +18,7 @@ using namespace std;
 int main()
 {
     int userInput[40];
-    int firstNum[40], secondNum[39], finalNum[40];
+    int temp = 0;
 
     for(int i = 0; i <40; i++)
     {
@@ -38,20 +38,18 @@ int main()
 
     //for ascending order sorting
     for(int i = 0; i < 40; i ++){
-        firstNum[i] = userInput[i];
-        secondNum[i] = userInput[i+1];
-        if(firstNum[i] > secondNum[i]){
-            finalNum[i] = secondNum[i];
-        }
-
-        if(secondNum[i]>firstNum[i]){
-            finalNum[i] = firstNum[i];
+        for(int j = 0; j < 40; j++){
+            if(userInput[i]>userInput[j]){
+                temp = userInput[i];
+                userInput[i] = userInput[j];
+                userInput[j] = temp;
+            }
         }
     }
 
-    cout<<endl<<"The elements of this array sorted asscending order are: "<<endl;
+    cout<<endl<<"The elements of this array sorted ascending order are: "<<endl;
     for(int i = 0; i < 40; i++){
-        cout<<finalNum[i]<<" ";
+        cout<<userInput[39-i]<<" ";
     }
     return 0;
 }
