@@ -31,7 +31,10 @@ This repository contains different folders with specific type of programs in it.
 - *basic_programs* = It contains simple and basic programs.
 - *arithmetic_op* = It contains basic programs related to arithmetic operations.
 - *control_flow* = It consists of logical and relational operators based programs along with loops.
-- *pointers* =
-- *arrays* =
+- *pointers* = Contains a basic program showing usage of pointers
+- *arrays* = Contains few programs to practice various operations on arrays and using arrays.
+- *functions* =
+- *classes* =
+- *vectors and iterators* =
 
 ###### STATUS: Repo under development
