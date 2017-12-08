@@ -37,4 +37,6 @@ This repository contains different folders with specific type of programs in it.
 - *classes* =
 - *vectors and iterators* =
 
+- *hackerRank* = Programming exercise from [HackerRank](https://www.hackerrank.com/domains/cpp/cpp-introduction)
+
 ###### STATUS: Repo under development
