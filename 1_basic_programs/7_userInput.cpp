@@ -1,6 +1,6 @@
 /*
 ** This program prompts user for input
-** dispalys user inout on console
+** dispalys user input on console
 */
 
 #include <iostream>
