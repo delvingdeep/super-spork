@@ -2,7 +2,7 @@
 ** This program performs various operations on matrices
 **
 ** Author: Deep Doshi
-** Reach me out at ddoshi@mtu.edu
+** Reach out to me: ddoshi@mtu.edu
 **
 */
 
