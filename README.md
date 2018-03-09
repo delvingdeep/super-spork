@@ -33,10 +33,11 @@ This repository contains different folders with specific type of programs in it.
 - *control_flow* = It consists of logical and relational operators based programs along with loops.
 - *pointers* = Contains a basic program showing usage of pointers
 - *arrays* = Contains few programs to practice various operations on arrays and using arrays.
-- *functions* =
-- *classes* =
+- *functions* = Contains few programs with different types of function and referencing
+- *classes* = Contains few programs to introduce classes in C++
 - *vectors and iterators* =
 
 - *hackerRank* = Programming exercise from [HackerRank](https://www.hackerrank.com/domains/cpp/cpp-introduction)
+- *misc* = It has some programming practice code files from different problem statements
 
 ###### STATUS: Repo under development
