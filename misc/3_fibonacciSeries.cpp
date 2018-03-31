@@ -17,7 +17,7 @@ int main(){
   int firstTerm = 0;
   int secondTerm = 1;
   int term = 0;
-  int sum = 0, temp_first = 0, temp_second = 0;
+  int sum = 0;
 
   cout<<"Fibonacci Sequence Generator started"<<endl;
   cout<<"Enter the number of terms for the the sequence: ";
@@ -34,12 +34,11 @@ int main(){
 
     // Prints rest of the terms
     for(int i=0; i<(term-2); i++){
-      temp_first = firstTerm;
-      temp_second = secondTerm;
-      sum = temp_first + temp_second;
 
+      sum = firstTerm + secondTerm;
+
+      firstTerm = secondTerm;
       secondTerm = sum;
-      firstTerm = temp_second;
 
       cout<<secondTerm<<" ";
     }
