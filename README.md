@@ -39,5 +39,6 @@ This repository contains different folders with specific type of programs in it.
 
 - *hackerRank* = Programming exercise from [HackerRank](https://www.hackerrank.com/domains/cpp/cpp-introduction)
 - *misc* = It has some programming practice code files from different problem statements
+- *bucky_tut* = Contains C++ Programming Tutorials [From Basic to Advance](https://www.youtube.com/playlist?list=PLwyVx3OgslBV9bwueaxIXaXIcIWolYMk) YouTube video series by Easy Programming channel.
 
 ###### STATUS: Repo under development

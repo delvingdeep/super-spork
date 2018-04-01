@@ -1,0 +1,1 @@
+This folder contains some of the program from the [Easy Programming](https://www.youtube.com/channel/UCfx2dro_w4_MyA19Nm5badg)'s C++ Tutorials [From Basic to Advance](https://www.youtube.com/playlist?list=PLwyVx3OgslBV9bwueaxIXaXIcIWolYMki) YouTube video series
