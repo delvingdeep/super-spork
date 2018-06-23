@@ -1,11 +1,14 @@
 /*
 ** This program is basic intro of a Structure in C++
+**
+** Structure is user defined data type
+** which allows user to combine data items of different kinds
+**
 ** Here I am creating a structure named student
 ** with following attributes: Name, Age, Class(level)
 */
 
 #include<iostream>
-#include<string>
 
 using namespace std;
 
