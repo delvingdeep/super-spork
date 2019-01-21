@@ -10,7 +10,7 @@ int search(int *arr, const int siz, int srhKey);
 int main()
 {
     const int size = 5;
-    int array[] = {657,74639,7,45};
+    int array[] = {657,74639,9890,7,45};
     int searchKey = 45;
     std::cout<<"Found at: "<<search(array, size, searchKey);
     return 0;
