@@ -1,6 +1,4 @@
-/**
- * Example of Singly Linked List
- */
+/* Example of Singly Linked List */
 
 #include <iostream>
 
@@ -46,7 +44,7 @@ class list
     /* function to display a node */
     void display_node()
     {
-        node *temp = new node;
+        node *temp;
         temp = head;        // set temp to head
 
         // iterate temp on entire list
@@ -79,8 +77,8 @@ class list
     /* function to insert a new node at any given position */
     void insert_position(int pos, int value)
     {
-        node *prev = new node;
-        node *curr = new node;
+        node *prev;
+        node *curr;
         node *temp = new node;
 
         curr = head;
